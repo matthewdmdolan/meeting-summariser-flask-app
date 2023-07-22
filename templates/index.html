@@ -29,8 +29,8 @@
 										<header class="major">
 											<h2>Meeting Note Creator</h2>
 										</header>
-										<p>Ultimately, this app utilises a python script to ingest the meeting notes provided
-										and provides a summary based on NLP methods</p>
+										<p>This application provides an effective method to summarise long meeting transcripts using SBERT (source in recommendations).
+										Ultimately, the application takes a .txt file as input, applies some data cleaning steps and then provides the resultant summary. </p>
 										<ul class="actions">
 										</ul>
 									</div>
@@ -44,10 +44,12 @@
 								<ul class="features">
 									<li>
 										<div class="file_input">
-        								<form action="/getfile" method="post" enctype="multipart/form-data">
+											<form action="/getfile" method="post" enctype="multipart/form-data">
 											<input type="file" id="myfile" name="myfile">
-											<input type="submit" name="submit_form">
-										</form>
+											<li>  </li>
+											<input type="submit" name="submit_form" class="submit_btn">
+											<textarea readonly style="width:500px;height:300px;">{{ result }}</textarea>
+											</form>
 										</div>
 									</li>
 								</ul>
@@ -60,8 +62,7 @@
 							<section id="second" class="main special">
 								<header class="major">
 									<h2>Recommended Sources</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<p>SBERT Summariser: <a>https://www.sbert.net/examples/applications/text-summarization/README.html</a></p>
 								</header>
 								<footer class="major">
 									<ul class="actions special">

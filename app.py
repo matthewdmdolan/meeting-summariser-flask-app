@@ -72,7 +72,7 @@ def getfile():
         result = model(lines_string, num_sentences=10)
         print(result)
 
-        return render_template('index.html')
+        return render_template('index.html', result=result)
 
 
 if __name__ == "__main__":
