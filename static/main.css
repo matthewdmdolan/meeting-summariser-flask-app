@@ -1,10 +1,6 @@
-@import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 /*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -21,6 +17,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	height:80%
 	font-size: 100%;
 	font-color: #ffffff;
 	font: inherit;
@@ -33,6 +30,12 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+.file_input input, .file_input textarea {
+            margin-bottom: 30px;  /* Increase or decrease as needed */
+            display: block;
+            align-items: center;/* Make elements stack vertically */
+        }
 
 ol, ul {
 	list-style: none;
@@ -132,7 +135,7 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1000px) {
 
 			body, input, select, textarea {
 				font-size: 14pt;
@@ -140,7 +143,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 900px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -575,7 +578,7 @@ input, select, textarea {
 					padding-top: 3em;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1px) {
 
 			.row {
 				display: flex;
@@ -1826,6 +1829,7 @@ input, select, textarea {
 	}
 
 /* Button */
+/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2311,7 +2315,7 @@ input, select, textarea {
 			color: #8cc9f0;
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1200px) {
 
 			.icon.major:before {
 				font-size: 5.5rem;
@@ -2319,7 +2323,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1200px) {
 
 			.icon.major:before {
 				font-size: 4.75rem;
@@ -3786,3 +3790,5 @@ input, select, textarea {
 			}
 
 		}
+
+		input.submit{}
